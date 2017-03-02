@@ -1,0 +1,17 @@
+name: MineMath
+version: 0.1
+author: Max
+main: me.max.minemath.Main
+commands:
+   calculate:
+      aliases: [calc]
+      description: Calculate the arguments
+      usage: Usage /calculate <Number> < * / - / + / % / ( / ) > <Number>.
+      permission: MineMath.calculate
+      permission-message: You don't have MineMath.calculate
+   calculateblocks:
+      aliases: [calcb, calculateb, calculateblocks, calculateblock, calcblock, calcblocks]
+      description: Calculate how many blocks you need for a build.
+      usage: Usage /calculateblocks <Block> <Number> < * / - / + / % / ( / ) > <Number>
+      permission: MineMath.calculateblocks
+      permission-message: You don't have MineMath.calculateblocks
